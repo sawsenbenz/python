@@ -1,7 +1,9 @@
-var1=0
+var1=10
 var2=20
-for var1 in range(0,var2+1):
+for var1 in range(0,var1):
 	print(var1)
-for i in range(0,var2):
-	n=var2//2
-	print(n)
+
+print('------------------------------')
+
+for i in range(0,var2, 2):
+	print(i)
