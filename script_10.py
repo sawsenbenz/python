@@ -1,11 +1,15 @@
-tuple= (14,4)
-def somme2(tuple):
-	for t in tuple:
-		tuple[0]+=t[0]
-		tuple[1]+=t[1]
-		return t
+tuple_var = (14,4)
 
-somme2(tuple)
+def somme2(t):
+    # Crée la variable de résultat toujours out de
+    # ta boucle et l'initialiser
+    result = 0
+    for item in t:
+        result = result + item
+    # le retour d'une fonction ne peut etre mit dans une boucle
+    return result
+
+print(somme2(tuple_var))
 
 
 
